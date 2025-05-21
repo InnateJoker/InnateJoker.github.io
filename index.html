@@ -3,77 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnateJoker的项目自述</title>
+    <title>InnateJoker的项目介绍</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 20px;
-            background-color: #f9f9f9;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h1, h2 {
-            color: #2c3e50;
+            color: #333;
         }
-        .profile {
+        h1 {
+            text-align: center;
             margin-bottom: 20px;
         }
         .project {
             margin-bottom: 20px;
-            padding: 10px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border: 1px solid #ddd;
         }
         .project h2 {
+            margin-top: 0;
             border-bottom: 2px solid #ccc;
             padding-bottom: 5px;
         }
         .project p {
             margin: 10px 0;
         }
-        .project ul {
-            padding-left: 20px;
+        .project pre {
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
         }
-        .project ul li {
-            margin-bottom: 5px;
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
-    <h1>InnateJoker的项目自述</h1>
-    <div class="profile">
-        <h2>关于InnateJoker</h2>
-        <p>GitHub用户名：InnateJoker</p>
-        <p>简介：这里是关于InnateJoker的个人简介，介绍其技术背景、兴趣领域等。</p>
-    </div>
+    <div class="container">
+        <h1>InnateJoker的项目介绍</h1>
+        <p>欢迎来到InnateJoker的项目页面！这里是InnateJoker在GitHub上的一些项目介绍。每个项目的详细内容都来自其对应的<code>README.md</code>文件。</p>
 
-    <div class="project">
-        <h2>项目1：项目名称</h2>
-        <p><strong>项目描述：</strong>这里是项目1的详细描述，包括项目的目标、功能和用途。</p>
-        <p><strong>开发语言：</strong>主要使用的编程语言。</p>
-        <p><strong>提交情况：</strong>根据Git提交日志，该项目在过去一段时间内的提交情况如下：</p>
-        <ul>
-            <li>提交1：提交时间、提交者、提交信息[^14^]。</li>
-            <li>提交2：提交时间、提交者、提交信息[^14^]。</li>
-            <!-- 根据实际提交情况继续添加 -->
-        </ul>
-        <p><strong>发布情况：</strong>项目是否已经发布，以及发布的版本信息。</p>
-    </div>
+        <!-- IJLIB Project -->
+        <div class="project">
+            <h2>IJLIB</h2>
+            <p>一个高效的C++库，旨在提供一些C++标准库中没有的函数。</p>
+            <pre>
+                <code>
+IJLIB 是一个C++库，旨在提供一些C++标准库中没有的高效函数。它包含以下模块：
+- IJint.hpp：一个简单的大整数类。
+- IJmath.hpp：一些数学相关的函数。
+- IJfloat.hpp：目前为空，未来可能会添加浮点数相关功能。
+                </code>
+            </pre>
+        </div>
 
-    <div class="project">
-        <h2>项目2：项目名称</h2>
-        <p><strong>项目描述：</strong>这里是项目2的详细描述，包括项目的目标、功能和用途。</p>
-        <p><strong>开发语言：</strong>主要使用的编程语言。</p>
-        <p><strong>提交情况：</strong>根据Git提交日志，该项目在过去一段时间内的提交情况如下：</p>
-        <ul>
-            <li>提交1：提交时间、提交者、提交信息[^14^]。</li>
-            <li>提交2：提交时间、提交者、提交信息[^14^]。</li>
-            <!-- 根据实际提交情况继续添加 -->
-        </ul>
-        <p><strong>发布情况：</strong>项目是否已经发布，以及发布的版本信息。</p>
-    </div>
+        <!-- PyEditor Project -->
+        <div class="project">
+            <h2>PyEditor</h2>
+            <p>一个简单的Python代码编辑器。</p>
+            <pre>
+                <code>
+PyEditor 是一个为Python开发人员设计的简单代码编辑器。它支持以下功能：
+- 语法高亮
+- 自动缩进
+- 基本的代码补全
+- 文件保存和加载
 
-    <!-- 根据实际项目数量继续添加项目介绍 -->
+使用方法：
+1. 下载项目并解压。
+2. 运行 main.py 文件。
+3. 开始编辑你的Python代码！
+
+注意：PyEditor目前处于开发阶段，可能会有一些小问题。
+                </code>
+            </pre>
+        </div>
+
+        <!-- 其他项目可以继续添加 -->
+    </div>
 </body>
 </html>
